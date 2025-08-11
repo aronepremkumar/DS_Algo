@@ -49,4 +49,12 @@ class DynamicArray {
     public int getCapacity() {
         return this.capacity;
     }
+
+    /**
+     *  capacity was declared but not initialized in the constructor.
+     *  set operation does not have to resize the array.
+     *  use the size variable to track the number of elements in the array.
+     *  the actual lenght of the array will return popped values also
+     *  also it is a good practice to remove the popped value from the array
+     */
 }
